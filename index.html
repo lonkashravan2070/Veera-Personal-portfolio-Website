@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8331a86c6c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src = "IMAGES/logo.png" class="logo">
+            <ul>
+                <li> <a href="#header">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#services">Services</a></li>
+                <li> <a href="#Portfolio">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-regular fa-circle-xmark"></i>
+
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+         <div class="header-text">
+            <p> SME </p>
+            <H1>Hi, I am <span>Gumma Veera Babu </span> <br> From Andhra Pradesh. India</H1>
+         </div>
+
+        </div>
+    
+</div>
+<!------------------------------About---------------------------------------------------->
+<div id = "about">
+    <div class="container">
+        <div class="row">
+             <div class="about-col-1">
+                <img src="IMAGES/user.jpg">
+             </div>
+             <div class="about-col-2">
+                <H1 class="sub-title"> About Me </H1>
+                <p>Having 10+ years of experience in data analysis and reporting. 
+                Good hands on experience in Salesforce CRM cloud, report and visualisation</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Databases</span><br>SQL Serever, Salesorce CRM</li>
+                        <li><span>Tools</span><br>Pac2000 (BMC Remedy), OIAM, LINQ Pad, Service Now</li>
+                        <li><span>Operating Systems</span><br>Linux, Windows </li>
+                        <li><span>Software/ Technologies</span><br>Power BI, Tableau, SQL, MS Excel, Salesforce CRM</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+        
+                        <li><span>2019 - Current</span><br> Subject Matter Expert at Cleanharbors India LLP</li>
+                        <li><span>2016-2019</span><br>Senior Associate at Synechron Technologies Pvt Ltd Clinet Wells Fargo (EGS) Ind Pvt Ltd</li>
+                        <li><span>2014-2016</span><br>Team Leader from Jun 2014 to Sep 2016 at ICICI Bank</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2012</span><br>CDAC Certified Professional (DESD-CDAC Certification: Real time operating systems, programming)</li>
+                        <li><span>2012</span><br>RoboTryst certification, Robosapiens Technologies Pvt.Ltd.</li>
+                        <li><span>2012</span><br>B. Tech (ECE) JNTU Kakinada University, 2012 with 66.73%.</li>
+                        <li><span>2008</span><br>Intermediate (MPC) board of intermediate education, 2008 with 94%.</li>
+                        <li><span>2006</span><br>SSC State Syllabus, 2006 with 91.83%</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li><span>1</span><br>Actively participated in sports Badminton</li>
+                            <li><span>2</span><br>Cricket and all social activities.</li>
+                            
+                            
+                        </ul>
+                </div>
+             </div>
+        </div>
+    </div>
+</div>
+<!--------------------services-------------------------->
+
+<div id="services">
+
+     <div class="container">
+        <H1 class="sub-title"> My Services </H1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Data Management</h2>
+                <p>Customer Master Data management project includes complete real time and dynamic customer master data handling. 
+                We are using Salesforce CRM as a tool and data source to analyze the data and reports</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-crop"></i>
+                <h2> Access Management</h2>
+                <p>Access Management in client location by using their internal database and developed tools. 
+                User/Application need to add or remove in Symphony, Pulling the reports or relevant data from Symphony using SQL/given C# scripts. 
+                Adding/modifying/removing application data, Symphony applications can be modified by different tools like Symphony conductor, IAM, ART, SPARS or WACS.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2> FCPG-Financial Crime and Prevention Group</h2>
+                <p>This project mainly deals with fraud transactions in ICICI bank customer’s accounts. 
+                    Transactions reports from SAS, VISA and Master connect to be monitored and sort out fraudulent customers list, 
+                    Suspicious customers need to be contacted and alert with call and message, using bank’s tool,
+                    we have to temporarily/permanently block his/her debit/credit cards. </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+     </div>
+
+</div>
+
+<!--------------------Portfolio------------>
+<div id= "Portfolio">
+    <div class="container">
+        <H1 class="sub-title"> My Work </H1>
+        <div class="worl-list">
+         <div class="work">
+            <img src="IMAGES/IMG1.jpg" >
+            <div class="layer">
+                <h3>Salesforce Dashboard</h3>
+                <p>Creating various reports & Dashboards according to the business requirements. 
+                Individually authored, installed, deployed reports using Salesforce CRM & advance excel. </p>
+                <a href="#"><i class="fa-regular fa-link"></i></a>
+            </div>
+         </div>
+        
+         <div class="work">
+            <img src="IMAGES/IMG2.png" >
+            <div class="layer">
+                <h3>Fraud Detection</h3>
+                <p>Master connect to be monitored and sort out fraudulent customers list, 
+                    Suspicious customers need to be contacted and alert with call and message, 
+                    using bank’s tool we have to temporarily/permanently block his/her debit/credit cards.  </p>
+                <a href="#"><i class="fa-regular fa-link"></i></a>
+            </div>
+         </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+
+</div>
+<!----------------------Contact----------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> veerug486@gmail.com</p>
+                <p>+91 9494954232</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                <a href="IMAGES/GUMMA VEERA.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="Submit" class="btn btn2">Submit</button>
+
+            </form>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p> copyrights @ shravan</p>
+</div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw8YAv-sFuKjuqDAfdf81DYG8toHiyf2u1Egq0aVoutkTHTtai_lJETgNU-HhbCdAsRdw/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
